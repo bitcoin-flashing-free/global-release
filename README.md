@@ -2,13 +2,13 @@
 
 ### What is Bitcoin flashing?
 
-Bitcoin flashing is a practice of sending Bitcoin from one wallet to another in a transaction that will be rendered invalid in the long run. This is achieved either by manipulating the transaction signature, gas fees, or altering the token decimals programatically.
+Bitcoin flashing primarily refers to a technique where an attacker creates the illusion of a successful Bitcoin transaction, but the funds never actually materialize or are quickly reversed. Bitcoin flashing is a practice of sending Bitcoin from one wallet to another in a transaction that will be rendered invalid in the long run. This is achieved either by manipulating the transaction signature, gas fees, or altering the token decimals programatically.
 
 ### Bitcoin flashing software
 
 CoinFlashr is an experimental software application that allows Bitcoin flashing with the complete source code included. USDT and Wrapped Bitcoin flashing are also supported. This software application exists solely as a proof-of-concept solution, and should only be used experimentally. The setup and utilization is entirely dummyproof. Flash tokens have a limited usage range, and they can not be swapped simply due to a lack of liquidity. The practical use case is transfers between cold and hardware wallets. The bitcoin can be sent to an exchange platform, but confirmation will never happen. Flash tokens are identical to the real deal until the user studies the underlying code or attempt to swap them.
 
-The user will have a limited spendable quota of either Bitcoin or USDT, but you'll be responsible for your gas fee for the flashing transactions. The user will find a gas address in-app and the gas topup process is simple.
+The user will have a limited spendable quota of either Bitcoin or USDT, and is responsible for the gas fee for the flashing transactions. The user will find a gas address in-app and the gas topup process is simple.
 
 ### Bitcoin flashing source code
 
